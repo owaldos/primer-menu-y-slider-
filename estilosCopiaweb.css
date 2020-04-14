@@ -1,0 +1,320 @@
+*{
+	padding: 0px;
+	margin:0px;
+
+}
+
+.contenedorGeneral{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.header{
+	background: #000000;
+	width: 100%;
+	height: px;
+	position: fixed;
+	padding: 5px 50px 5px 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+
+.header li {
+	
+	display: inline;
+	padding: 5px;
+
+}
+
+.header  li ,a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	margin-right: 15px;
+
+
+}
+
+.Instagran:before{
+	content:"";
+	display: inline-block;
+	width: 15px;
+	height:10px;
+	background: #ffffff;
+	background-image:url(imagenes/pngocean.png);
+	background-size: 15px 10px;
+	margin-right:5px;
+
+}
+
+.Facebook:before{
+    content:"";
+	display: inline-block;
+	width: 13px;
+	height:13px;
+	background-image:url(imagenes/face.png);
+	background-size: 15px 15px;
+	margin-right:5px;
+}
+
+.Twitter:before{
+    content:"";
+	display: inline-block;
+	width: 15px;
+	height:10px;
+	background-image:url(imagenes/twitter.png);
+	background-size: 15px 10px;
+	margin-right:5px;
+    
+}
+
+
+.correo:before{
+    content:"";
+	display: inline-block;
+	width: 15px;
+	height:10px;
+	background-image:url(imagenes/correo.png);
+	background-size: 15px 10px;
+	margin-right:5px;
+}
+
+.telf:before{
+    content:"";
+	display: inline-block;
+	width: 15px;
+	height:10px;
+	background-image:url(imagenes/whatssap.png);
+	background-size: 15px 10px;
+	margin-right:5px;
+}
+
+.nombre:before{
+    content:"";
+	display: inline-block;
+	width: 15px;
+	height:10px;
+	background-image:url(imagenes/images.png);
+	background-size: 15px 10px;
+	margin-right:5px;
+}
+
+.Menu{
+	width: 100%;
+	height:70px;
+
+	background: #ffffff;
+	margin-top: 29px;
+	position: fixed;
+	
+	border-bottom: 3px solid #000000;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+ 
+}
+
+.logo{
+	width: 20%;
+	height: 60px;
+	padding: 20px 10px 5px 20px;
+
+
+}
+
+.ContenedorMenuMovil{
+	width: 75%;
+	height: 60px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.ContenedorMenuMovil a{
+	padding:10px 2.5px;
+	font-size: 13px;
+	color:#000000;
+}
+
+.ContenedorMenuMovil a:hover{
+	color: red;
+	
+	border-bottom: 4px solid red;
+}
+
+.slider{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin-top: 95px;
+	
+}
+
+.slider ul{
+	display:flex;
+	width: 300%;
+	height: 400px;
+	padding:0px;
+	animation:cambio 15s alternate infinite;
+
+}
+
+li img {
+	width: 100%;
+	height: 400px;
+
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	30%{margin-left: 0;}
+
+	33%{margin-left: -100%;}
+	63%{margin-left: -100%;}
+
+	69%{ margin-left: -200%;}
+	100%{margin-left: -200%;}
+}
+
+.contenedor4{
+	background: url(https://www.tdgcentro.com/wp-content/uploads/2017/03/bck_diseno.png); 
+	background-attachment: fixed;
+	width:100%;
+	height: 700px;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+	
+}
+
+
+.tituloContenedor4{
+
+	width: 100%;
+	height: 120px;
+    padding: 40px 0px 10px 0px;
+	box-sizing: border-box;
+	
+
+}
+
+.tituloContenedor4 h2{
+
+	font-size: 40px;
+	margin-left: 70px;
+	display: inline-block;
+}
+
+.tituloContenedor4 h2:after{
+        content:"" ;
+        width: 350px;
+        height: 10px;
+	border-bottom:2px solid black;
+	position: absolute;
+	top:580px;
+	right:350px;
+
+}
+
+.contenido{
+	
+	width: 45%;
+	height: 400px;
+	
+}
+
+.contenido h2{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 25px;
+
+}
+
+.contenido h3{
+	font-size: 28px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 20px;
+
+}
+
+.contenido h4 {
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 19px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 30px;
+	padding: 20px;
+}
+
+.fotosdispositivos{
+	
+	width: 55%;
+	height: 400px;
+
+}
+
+.fotosdispositivos img{
+	width: 95%;
+	height :310px;
+
+}
+
+.buttonInformate{
+	height: 20px;
+    margin-bottom: 130px;
+	
+}
+
+.buttonInformate a{
+	color:#ffffff;
+	background: #000000;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.buttonInformate a:hover{
+	background: red;
+
+}
+
+
+
+
+.contenedor5{
+	width: 100%;
+	height: 700px;
+}
